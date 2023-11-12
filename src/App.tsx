@@ -1,6 +1,7 @@
 import "./App.css";
 import FruitList from "./components/FruitList/FruitList";
 import PrimaryButton from "./components/PrimaryButton";
+import UserEvent from "./components/UserEvent/UserEvent";
 import UsersTable from "./components/UsersTable/UsersTable";
 
 export const users = [
@@ -21,6 +22,7 @@ function App() {
         <PrimaryButton actionType="Delete"></PrimaryButton>
         <FruitList fruits={fruits}></FruitList>
         <UsersTable users={users}></UsersTable>
+        <UserEvent></UserEvent>
       </div>
     </>
   );
